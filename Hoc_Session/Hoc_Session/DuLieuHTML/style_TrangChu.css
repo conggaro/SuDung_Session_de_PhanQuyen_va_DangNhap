@@ -1,0 +1,21 @@
+﻿body{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: #CE3226;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:active{
+    color: red;
+}
+
+a:hover{
+    background: yellow;
+}

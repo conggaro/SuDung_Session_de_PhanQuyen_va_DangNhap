@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QuanLyMatHangModelStoreContainer" CdmEntityContainer="QuanLyMatHangEntities">
+    <EntitySetMapping Name="TaiKhoan">
+      <EntityTypeMapping TypeName="QuanLyMatHangModel.TaiKhoan">
+        <MappingFragment StoreEntitySet="TaiKhoan">
+          <ScalarProperty Name="id_TaiKhoan" ColumnName="id_TaiKhoan" />
+          <ScalarProperty Name="ten_tai_khoan" ColumnName="ten_tai_khoan" />
+          <ScalarProperty Name="mat_khau" ColumnName="mat_khau" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

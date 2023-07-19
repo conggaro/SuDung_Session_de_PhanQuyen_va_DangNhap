@@ -1,0 +1,14 @@
+﻿@model Hoc_Session.Models.TaiKhoan
+
+@{
+    Layout = "/Views/Shared/_LayoutPage_01.cshtml";
+}
+
+<h1>
+    @ViewBag.thong_bao
+</h1>
+
+<ul>
+    <li>Tên tài khoản: @Model.ten_tai_khoan</li>
+    <li>Mật khẩu: @Model.mat_khau</li>
+</ul>
